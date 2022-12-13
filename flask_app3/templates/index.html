@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Welcome to Flask Application</title>
+</head>
+<body>
+  <h1> Enter Data: </h1>
+  <form action="{{ url_for('result') }}" method="POST">
+    <label>:Enter 1st Number  </label>
+    <input typeint name=integer1 id=finterger2 value="Enter First Number*"></input>
+    <br>
+    <label>Enter 2nd Number: </label>
+    <input type=int name=integer2 id=integer2 value="Enter Second Number*"></input>
+    <br>
+    <input type=submit value="Submit">
+  </form>
+</body>
+</html>
