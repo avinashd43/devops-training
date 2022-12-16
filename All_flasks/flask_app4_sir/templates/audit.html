@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>Welcome to Flask Application</title>
+</head>
+<body>
+  <h1> Audit Records </h1>
+  <table border=1>
+  <tr><th>Request</th><th>num1</th><th>num2</th><th>sum1</th><th>sub1</th><th>mul1</th><th>div1</th></tr>
+  {% for i in d %}
+    <tr>
+    {% for m in i %}
+       <td>{{ m }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  </table>
+</body>
+</html>

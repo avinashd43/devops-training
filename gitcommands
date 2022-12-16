@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m 'First Commit' -a
+git log
+git remote add origin gituser@gitserver:hello.git
+git remote -v
+git push origin master
+git remote rm origin
